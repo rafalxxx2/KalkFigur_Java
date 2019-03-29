@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Glowna {
     private double wartoscA;
     private double wartoscB;
+    private double wysH;
    // Scanner scanner = new Scanner(System.in);
 
 
@@ -38,5 +39,14 @@ public class Glowna {
     public double argumentB(){
         wartoscB = scanner.nextDouble();
         return wartoscB;
+    }
+
+    public double getWysH() {
+        return wysH;
+    }
+
+    public double argumentH(){
+        wysH = scanner.nextDouble();
+            return  wysH;
     }
 }

@@ -1,6 +1,6 @@
 package com.example.mypcakage;
 
-public class Kwadrat extends FiguraPlaska {
+public class Kwadrat extends FiguraPlaska implements Ippplaskiej{
 
     private double bokA;
     private String kwadrat = "Kwadrat";
@@ -18,6 +18,11 @@ public class Kwadrat extends FiguraPlaska {
         double pole;
         pole = bokA * bokA;
             return pole;
+    }
+
+    @Override
+    public double liczppplaskiej() {
+       return this.liczpole()*6;
     }
 
     public String getKwadrat() {
